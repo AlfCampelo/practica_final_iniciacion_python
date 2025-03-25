@@ -1,6 +1,20 @@
 class Libro:
+    ''' Representa un libro.
+    
+        Attributes:
+            titulo (str): titulo
+            autor  (str): autor
+            isbn   (str): isbn
+    '''
     # Constructor de la clase Libro
     def __init__(self, titulo, autor, isbn):
+        ''' Inicializa un objeto de tipo Libro.
+
+            Args:
+            titulo (str): titulo
+            autor  (str): autor
+            isbn   (str): isbn
+        '''
         self.titulo = titulo
         self.autor = autor
         self.isbn = isbn
